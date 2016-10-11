@@ -116,15 +116,6 @@
                                     <rect key="frame" x="28" y="379" width="344" height="228"/>
                                 </variation>
                             </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Boy Scouts" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rLM-13-NzT">
-                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="57"/>
-                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                <nil key="highlightedColor"/>
-                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="59" y="20" width="283" height="85"/>
-                                </variation>
-                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mHq-PE-Hsk">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
@@ -136,22 +127,28 @@
                                     <segue destination="kTl-SU-4Rg" kind="show" id="zXa-R7-hZ5"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BSA-council-2cLogo-400x73 (1)" translatesAutoresizingMaskIntoConstraints="NO" id="K5w-7T-M32">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="33" y="28" width="334" height="60"/>
+                                </variation>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="ZmT-eZ-24c"/>
                                 <exclude reference="TfD-II-TO9"/>
-                                <exclude reference="rLM-13-NzT"/>
                                 <exclude reference="mHq-PE-Hsk"/>
+                                <exclude reference="K5w-7T-M32"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="subviews">
                                 <include reference="ZmT-eZ-24c"/>
                                 <include reference="TfD-II-TO9"/>
-                                <include reference="rLM-13-NzT"/>
                                 <include reference="mHq-PE-Hsk"/>
+                                <include reference="K5w-7T-M32"/>
                             </mask>
                         </variation>
                     </view>
@@ -171,12 +168,88 @@
                     <view key="view" contentMode="scaleToFill" id="jcQ-6l-HnV">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="video games header" translatesAutoresizingMaskIntoConstraints="NO" id="c2l-6h-gxb">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="12" y="28" width="376" height="44"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="halo delta halo" translatesAutoresizingMaskIntoConstraints="NO" id="bFT-XR-kZZ">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="86" width="400" height="219"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Halo Title" translatesAutoresizingMaskIntoConstraints="NO" id="L7n-fx-joR">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="131" y="313" width="138" height="29"/>
+                                </variation>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="aXv-1F-QwR">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">This is a series that I have loved for a long time.  It's a great game to play with friends, and it's story never ceases to fascinate me.  </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="350" width="360" height="63"/>
+                                </variation>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="portal 2" translatesAutoresizingMaskIntoConstraints="NO" id="QbL-7D-Dz3">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="436" width="400" height="237"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="portal 2 header" translatesAutoresizingMaskIntoConstraints="NO" id="MTs-Ry-Eim">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="126" y="681" width="148" height="36"/>
+                                </variation>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="k9V-hf-ucN">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="80" y="720" width="240" height="128"/>
+                                </variation>
+                            </textView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="c2l-6h-gxb"/>
+                                <exclude reference="bFT-XR-kZZ"/>
+                                <exclude reference="L7n-fx-joR"/>
+                                <exclude reference="aXv-1F-QwR"/>
+                                <exclude reference="QbL-7D-Dz3"/>
+                                <exclude reference="MTs-Ry-Eim"/>
+                                <exclude reference="k9V-hf-ucN"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="c2l-6h-gxb"/>
+                                <include reference="bFT-XR-kZZ"/>
+                                <include reference="L7n-fx-joR"/>
+                                <include reference="aXv-1F-QwR"/>
+                                <include reference="QbL-7D-Dz3"/>
+                                <include reference="MTs-Ry-Eim"/>
+                                <include reference="k9V-hf-ucN"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="400" height="1200"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zVl-k4-MLk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1574" y="482"/>
+            <point key="canvasLocation" x="1573.5" y="481.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="a9J-hy-i01">
@@ -216,8 +289,14 @@
         </scene>
     </scenes>
     <resources>
+        <image name="BSA-council-2cLogo-400x73 (1)" width="400" height="73"/>
+        <image name="Halo Title" width="310" height="57"/>
         <image name="KyleSpace" width="2340" height="2340"/>
         <image name="ScoutsYAY" width="2880" height="1620"/>
         <image name="Space" width="1106" height="725"/>
+        <image name="halo delta halo" width="720" height="405"/>
+        <image name="portal 2" width="821" height="525"/>
+        <image name="portal 2 header" width="443" height="126"/>
+        <image name="video games header" width="843" height="63"/>
     </resources>
 </document>
