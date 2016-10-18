@@ -166,7 +166,7 @@
                         <viewControllerLayoutGuide type="bottom" id="RUZ-3V-PD5"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="jcQ-6l-HnV">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="400" height="1400"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="video games header" translatesAutoresizingMaskIntoConstraints="NO" id="c2l-6h-gxb">
@@ -206,19 +206,52 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="portal 2 header" translatesAutoresizingMaskIntoConstraints="NO" id="MTs-Ry-Eim">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="126" y="681" width="148" height="36"/>
+                                    <rect key="frame" x="126" y="682" width="148" height="36"/>
                                 </variation>
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="k9V-hf-ucN">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
+                                <string key="text">Possibly my favorite game of all time, Portal 2 has it all.  Mind-bending puzzles, intense action and a healthy portion of comedy makes this game a masterpiece to me.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="80" y="720" width="240" height="128"/>
+                                    <rect key="frame" x="20" y="720" width="360" height="84"/>
                                 </variation>
                             </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shovel knight" translatesAutoresizingMaskIntoConstraints="NO" id="KAT-8M-WVD">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="821" width="400" height="242"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shovel knight header" translatesAutoresizingMaskIntoConstraints="NO" id="Ws4-2J-Gle">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="115" y="1076" width="171" height="55"/>
+                                </variation>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="I12-eE-34o">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Shovel Knight is a jem of a game.  It's amazing soundtrack, charming story and challenging platforming make it an 8/8 in my book.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="1139" width="360" height="67"/>
+                                </variation>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g0L-qn-FNC">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                <state key="normal" title="Hobbies"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="133" y="1258" width="135" height="77"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="Osh-nL-6Ya" kind="show" id="T89-a3-XLx"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -230,6 +263,10 @@
                                 <exclude reference="QbL-7D-Dz3"/>
                                 <exclude reference="MTs-Ry-Eim"/>
                                 <exclude reference="k9V-hf-ucN"/>
+                                <exclude reference="KAT-8M-WVD"/>
+                                <exclude reference="Ws4-2J-Gle"/>
+                                <exclude reference="I12-eE-34o"/>
+                                <exclude reference="g0L-qn-FNC"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -241,11 +278,15 @@
                                 <include reference="QbL-7D-Dz3"/>
                                 <include reference="MTs-Ry-Eim"/>
                                 <include reference="k9V-hf-ucN"/>
+                                <include reference="KAT-8M-WVD"/>
+                                <include reference="Ws4-2J-Gle"/>
+                                <include reference="I12-eE-34o"/>
+                                <include reference="g0L-qn-FNC"/>
                             </mask>
                         </variation>
                     </view>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                    <size key="freeformSize" width="400" height="1200"/>
+                    <size key="freeformSize" width="400" height="1400"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zVl-k4-MLk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -297,6 +338,8 @@
         <image name="halo delta halo" width="720" height="405"/>
         <image name="portal 2" width="821" height="525"/>
         <image name="portal 2 header" width="443" height="126"/>
+        <image name="shovel knight" width="743" height="560"/>
+        <image name="shovel knight header" width="596" height="212"/>
         <image name="video games header" width="843" height="63"/>
     </resources>
 </document>
