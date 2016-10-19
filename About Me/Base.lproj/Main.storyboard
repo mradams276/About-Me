@@ -169,6 +169,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="400" height="1400"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="video game backround" translatesAutoresizingMaskIntoConstraints="NO" id="acy-A2-5Cq">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="936" width="400" height="464"/>
+                                </variation>
+                            </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="video games header" translatesAutoresizingMaskIntoConstraints="NO" id="c2l-6h-gxb">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
@@ -233,7 +239,6 @@
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="I12-eE-34o">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <string key="text">Shovel Knight is a jem of a game.  It's amazing soundtrack, charming story and challenging platforming make it an 8/8 in my book.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -254,8 +259,10 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
                         <variation key="default">
                             <mask key="subviews">
+                                <exclude reference="acy-A2-5Cq"/>
                                 <exclude reference="c2l-6h-gxb"/>
                                 <exclude reference="bFT-XR-kZZ"/>
                                 <exclude reference="L7n-fx-joR"/>
@@ -271,6 +278,7 @@
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="subviews">
+                                <include reference="acy-A2-5Cq"/>
                                 <include reference="c2l-6h-gxb"/>
                                 <include reference="bFT-XR-kZZ"/>
                                 <include reference="L7n-fx-joR"/>
@@ -301,14 +309,144 @@
                         <viewControllerLayoutGuide type="bottom" id="pGX-cx-ahp"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="jDD-Af-2KA" customClass="Hobbie">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="400" height="800"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="carbon backrouynd" translatesAutoresizingMaskIntoConstraints="NO" id="8f5-z3-N1L">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="461" width="400" height="457"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="carbon backrouynd" translatesAutoresizingMaskIntoConstraints="NO" id="iVJ-7P-jRz">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="-380" width="400" height="512"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="skiing" translatesAutoresizingMaskIntoConstraints="NO" id="KCM-fb-hTG">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="119" y="138" width="142" height="92"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="xbox" translatesAutoresizingMaskIntoConstraints="NO" id="pkf-T3-23r">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="1" y="145" width="110" height="78"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="harmons" translatesAutoresizingMaskIntoConstraints="NO" id="Snd-gV-0mI">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="269" y="162" width="131" height="43"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="code" translatesAutoresizingMaskIntoConstraints="NO" id="MeI-wT-uaW">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="119" y="245" width="142" height="84"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="running" translatesAutoresizingMaskIntoConstraints="NO" id="i1W-Br-fTT">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="245" width="111" height="84"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="youtube" translatesAutoresizingMaskIntoConstraints="NO" id="GPb-SD-elj">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="0.0" y="354" width="116" height="78"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="driving" translatesAutoresizingMaskIntoConstraints="NO" id="xWA-97-QNN">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="266" y="245" width="134" height="84"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="lazer team" translatesAutoresizingMaskIntoConstraints="NO" id="gDm-fc-P0R">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="266" y="346" width="134" height="95"/>
+                                </variation>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="olaf me" translatesAutoresizingMaskIntoConstraints="NO" id="bfi-OV-Z2O">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="135" y="346" width="111" height="107"/>
+                                </variation>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Things I do often" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2zg-sU-bkG">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="110" y="28" width="181" height="58"/>
+                                </variation>
+                            </label>
+                            <button opaque="NO" alpha="0.94999999999999996" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="y9n-mK-EK7">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <color key="backgroundColor" red="0.73333333329999995" green="0.16862745100000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="My Future">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="158" y="555" width="84" height="47"/>
+                                </variation>
+                                <connections>
+                                    <segue destination="5jp-bO-a8Z" kind="show" id="FxU-e9-Fb5"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="8f5-z3-N1L"/>
+                                <exclude reference="iVJ-7P-jRz"/>
+                                <exclude reference="KCM-fb-hTG"/>
+                                <exclude reference="pkf-T3-23r"/>
+                                <exclude reference="Snd-gV-0mI"/>
+                                <exclude reference="MeI-wT-uaW"/>
+                                <exclude reference="i1W-Br-fTT"/>
+                                <exclude reference="GPb-SD-elj"/>
+                                <exclude reference="xWA-97-QNN"/>
+                                <exclude reference="gDm-fc-P0R"/>
+                                <exclude reference="bfi-OV-Z2O"/>
+                                <exclude reference="2zg-sU-bkG"/>
+                                <exclude reference="y9n-mK-EK7"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="8f5-z3-N1L"/>
+                                <include reference="iVJ-7P-jRz"/>
+                                <include reference="KCM-fb-hTG"/>
+                                <include reference="pkf-T3-23r"/>
+                                <include reference="Snd-gV-0mI"/>
+                                <include reference="MeI-wT-uaW"/>
+                                <include reference="i1W-Br-fTT"/>
+                                <include reference="GPb-SD-elj"/>
+                                <include reference="xWA-97-QNN"/>
+                                <include reference="gDm-fc-P0R"/>
+                                <include reference="bfi-OV-Z2O"/>
+                                <include reference="2zg-sU-bkG"/>
+                                <include reference="y9n-mK-EK7"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="400" height="800"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Vqs-dK-iXI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="carbon backrouynd" id="3Ur-Ts-nRm">
+                    <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
             </objects>
-            <point key="canvasLocation" x="2231" y="482"/>
+            <point key="canvasLocation" x="2230.5" y="481.5"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="NKg-Wd-4O2">
@@ -321,12 +459,33 @@
                     <view key="view" contentMode="scaleToFill" id="ljV-dK-wTh">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="My Future!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kLe-I6-7P1">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="25"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="144" y="28" width="121" height="38"/>
+                                </variation>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="kLe-I6-7P1"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="kLe-I6-7P1"/>
+                            </mask>
+                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Fx-Ik-Uja" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2910" y="482"/>
+            <point key="canvasLocation" x="2910" y="481.5"/>
         </scene>
     </scenes>
     <resources>
@@ -335,11 +494,22 @@
         <image name="KyleSpace" width="2340" height="2340"/>
         <image name="ScoutsYAY" width="2880" height="1620"/>
         <image name="Space" width="1106" height="725"/>
+        <image name="carbon backrouynd" width="366" height="410"/>
+        <image name="code" width="837" height="553"/>
+        <image name="driving" width="836" height="553"/>
         <image name="halo delta halo" width="720" height="405"/>
+        <image name="harmons" width="631" height="155"/>
+        <image name="lazer team" width="1280" height="960"/>
+        <image name="olaf me" width="1224" height="1632"/>
         <image name="portal 2" width="821" height="525"/>
         <image name="portal 2 header" width="443" height="126"/>
+        <image name="running" width="571" height="322"/>
         <image name="shovel knight" width="743" height="560"/>
         <image name="shovel knight header" width="596" height="212"/>
+        <image name="skiing" width="640" height="480"/>
+        <image name="video game backround" width="366" height="521"/>
         <image name="video games header" width="843" height="63"/>
+        <image name="xbox" width="589" height="382"/>
+        <image name="youtube" width="978" height="550"/>
     </resources>
 </document>
